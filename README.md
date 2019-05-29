@@ -1,5 +1,7 @@
 # .github
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dsmjs/.github.svg)](https://greenkeeper.io/)
+
 organization level configuration repository
 
 <!-- status badges -->
