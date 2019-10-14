@@ -33,7 +33,6 @@ pull-request to a project, [this tutorial][PRs-link] can help get you started.
 ### Commit Convention
 
 [![Conventional Commits][commit-convention-badge]][commit-convention-link]
-[![Commitizen friendly][commitizen-badge]][commitizen-link]
 
 We publish our pacakages automatically using
 [semantic-release](https://github.com/semantic-release/semantic-release/).
@@ -45,7 +44,27 @@ We have chosen to follow the [conventional commits][commit-convention-link]
 convention. We leverage [commitlint](https://github.com/conventional-changelog/commitlint)
 and a [`commitmsg` git hook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
 to automatically verify the commit syntax and remind to follow the convention
-properly.
+properly. You can find the versioning strategy for this convention [here](https://github.com/semantic-release/commit-analyzer#default-rules-matching).
+
+While the commit convention is most useful in the package projects because of
+the use of `semantic-release`, we do use the same convention on our other
+projects for consistency.
+
+#### Using a wizard to format commits correctly
+
+[![Commitizen friendly][commitizen-badge]][commitizen-link]
+
+In projects where you find the "commitizen friendly" badge, we have configured
+the cli wizard called [commitizen][commitizen-link] in order to simplify
+building the commit message correctly. If you are new to `commitizen`, simply
+[install the tool](https://commitizen.github.io/cz-cli/#installing-the-command-line-tool)
+and then use `git cz` to commit instead of the usual `git commit`.
+
+:eyes: __Note__: If your commit fails and you have adjusted the staged files
+and want to attempt your commit again, you can use the `git cz --retry` command
+to use the previous wizard answers rather than answering the same way a second
+time.
+
 
 [commit-convention-link]: https://conventionalcommits.org
 [commit-convention-badge]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg
