@@ -30,7 +30,27 @@ invite at <http://dsmwebcollective.com>.
 If you are new to the process of making contributions through sending a
 pull-request to a project, [this tutorial][PRs-link] can help get you started.
 
+### Commit Convention
 
+[![Conventional Commits][commit-convention-badge]][commit-convention-link]
+[![Commitizen friendly][commitizen-badge]][commitizen-link]
+
+We publish our pacakages automatically using
+[semantic-release](https://github.com/semantic-release/semantic-release/).
+Following a commit convention allows `semantic-release` to determine the impact
+of each commit since the previous release and publish a [semver](https://semver.org)
+compatible version with the new changes.
+
+We have chosen to follow the [conventional commits][commit-convention-link]
+convention. We leverage [commitlint](https://github.com/conventional-changelog/commitlint)
+and a [`commitmsg` git hook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
+to automatically verify the commit syntax and remind to follow the convention
+properly.
+
+[commit-convention-link]: https://conventionalcommits.org
+[commit-convention-badge]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg
+[commitizen-link]: http://commitizen.github.io/cz-cli/
+[commitizen-badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
 [PRs-link]: http://makeapullrequest.com
 [PRs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
 
