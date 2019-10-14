@@ -65,6 +65,24 @@ and want to attempt your commit again, you can use the `git cz --retry` command
 to use the previous wizard answers rather than answering the same way a second
 time.
 
+## Environment Configuration
+
+### Node / npm
+
+We define an expected node in each project using [nvm](https://github.com/nvm-sh/nvm)
+to help enable consistency between contributors as well as CI.
+
+Once you have `nvm` installed, you can use `nvm install` after cloning to
+configure your local node version to match what is expected for the project
+(`nvm use` will also work for versions that you already have installed). Avoid
+upgrading `npm` independently so that the installed version remains the one
+installed with the node version. This will help reduce noise between commits
+within the `package-lock.json` file.
+
+If you use `nvm` in many projects, you might consider using [avn](https://github.com/wbyoung/avn)
+and [avn-nvm](https://github.com/wbyoung/avn-nvm) to automatically switch to
+configured versions when changing into a directory.
+
 
 [commit-convention-link]: https://conventionalcommits.org
 [commit-convention-badge]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg
