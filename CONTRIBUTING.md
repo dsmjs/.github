@@ -10,7 +10,7 @@ into additional PRs.
 
 ### Align with maintainers first
 
-We welcome conversation about your contribution ahead of opening your PR and
+We encourage conversation about your contribution ahead of opening your PR and
 encourage aligning with project maintainers before investing significant effort
 into your contribution.
 
