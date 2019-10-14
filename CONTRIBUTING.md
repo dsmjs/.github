@@ -28,7 +28,8 @@ invite at <http://dsmwebcollective.com>.
 ### Your first PR
 
 If you are new to the process of making contributions through sending a
-pull-request to a project, [this tutorial][PRs-link] can help get you started.
+pull-request to a project, work through [this tutorial][PR-tutorial] to get started or
+[this video course][PR-course] for more details.
 
 ### Commit Convention
 
@@ -91,6 +92,8 @@ configured versions when changing into a directory.
 [semantic-release-badge]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
 [commitizen-link]: http://commitizen.github.io/cz-cli/
 [commitizen-badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
+[PR-tutorial]: https://github.com/firstcontributions/first-contributions
+[PR-course]: http://makeapullrequest.com
 [PRs-link]: http://makeapullrequest.com
 [PRs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
 
