@@ -15,6 +15,8 @@ branches:
 teams:
   - name: maintainers
     permission: push
+  - name: triage
+    permission: triage
 labels:
   - name: bug
     color: ee0701
