@@ -55,3 +55,9 @@ labels:
     description: This issue or pull-request was included in a version released by semantic-release
   - name: hacktoberfest
     color: ff9100
+  - name: feature parity with legacy site
+    color: 5146f2
+  - name: feature missing from old site
+    color: 8eedd0
+  - name: security
+    color: f7de00
