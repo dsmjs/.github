@@ -1,1 +1,1 @@
-exports.plugins = ['@form8ion/remark-lint-preset'];
+exports.plugins = ['@dsmjs/remark-preset-lint'];
