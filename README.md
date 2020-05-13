@@ -30,7 +30,6 @@ GitHub gives special behavior to a repository with the name of `.github`
 [![Conventional Commits][commit-convention-badge]][commit-convention-link]
 [![Commitizen friendly][commitizen-badge]][commitizen-link]
 [![PRs Welcome][PRs-badge]][PRs-link]
-[![Greenkeeper badge](https://badges.greenkeeper.io/dsmjs/.github.svg)](https://greenkeeper.io/)
 [![Dependabot][dependabot-badge]][dependabot-link]
 
 <!--contribution-badges end -->
