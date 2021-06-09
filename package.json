@@ -1,5 +1,6 @@
 {
   "name": "github",
+  "private": true,
   "description": "organization level configuration repository",
   "license": "MIT",
   "repository": "dsmjs/.github",
@@ -10,7 +11,7 @@
     "test": "npm-run-all --print-label --parallel lint:*",
     "lint:md": "remark . --frail",
     "lint:sensitive": "ban",
-    "lint:travis": "travis-lint .travis.yml"
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@dsmjs/remark-preset-lint": "1.0.15",
@@ -19,7 +20,7 @@
     "cz-conventional-changelog": "3.3.0",
     "husky": "6.0.0",
     "npm-run-all": "4.1.5",
-    "remark-cli": "9.0.0",
-    "travis-lint": "1.0.0"
-  }
+    "remark-cli": "9.0.0"
+  },
+  "dependencies": {}
 }
