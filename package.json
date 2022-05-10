@@ -15,7 +15,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@dsmjs/remark-preset-lint": "2.0.12",
+    "@dsmjs/remark-preset-lint": "2.0.13",
     "ban-sensitive-files": "1.9.18",
     "commitlint-config-dsmjs": "1.0.39",
     "cz-conventional-changelog": "3.3.0",
